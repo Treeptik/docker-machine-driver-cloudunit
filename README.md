@@ -40,7 +40,7 @@ Check that `docker-machine` can see the CloudUnit driver by asking for
 the driver help.
 
 ```
-$ docker-machine create -d brightbox | more
+$ docker-machine create CU1 -driver cloudunit
 Usage: docker-machine create [OPTIONS] [arg...]
 
 ## Create a machine.
