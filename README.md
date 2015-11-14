@@ -51,4 +51,4 @@ TODO
 
 This code is released under an AGPL V3 License.
 
-Copyright (c) 2015 Brightbox Systems Ltd.
+Copyright (c) 2015 Treeptik.
