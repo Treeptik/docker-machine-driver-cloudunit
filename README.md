@@ -67,6 +67,7 @@ We will release many plugin but the first platforms will be in this order
 - [x] VirtualBox (WIP)
 - [ ] IBM SoftLayer
 - [ ] Google Compute Engine
+
 We will support other platform after having full stability for those.
 
 ## OPTIONS
@@ -76,13 +77,32 @@ We will support other platform after having full stability for those.
 There will be common options and specific options.
 Common will be dedicated to CloudUnit Environment.
 
+```
+CloudUnit options:
+  --cloudunit-mysql-password
+  --cloudunit-ssh-passphrase
+  --cloudunit-add-certs
+  --cloudunit-domain
+  --cloudunit-add-dns
+```
+
 ### CUSTOM VIRTUALBOX
+
+```
+TODO
+```
 
 ### CUSTOM IBM SOFTLAYER
 
+```
+TODO
+```
+
 ### CUSTOM GOOGLE COMPUTE ENGINE
 
-
+```
+TODO
+```
 
 ## License
 
