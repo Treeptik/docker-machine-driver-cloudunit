@@ -29,8 +29,7 @@ sudo chmod 755 /usr/local/bin/docker-machine-driver-cloudunit
 ```
 **Windows**
 ```
-sudo curl -sSL -o /usr/local/bin/docker-machine-driver-cloudunit https://github.com/Treeptik/docker-machine-driver-cloudunit/releases/download/v0.0.1/bin.docker-machine-driver-cloudunit_windows-amd64 &&
-sudo chmod 755 /usr/local/bin/docker-machine-driver-cloudunit
+You have to download the binary into docker machine directory. Need to be on your Windows PATH.
 ```
 ### From Source
 
@@ -58,7 +57,7 @@ Check that `docker-machine` can see the CloudUnit driver by asking for
 the driver help.
 
 ```
-$ docker-machine create CU1 -driver cloudunit-virtualbox
+$ docker-machine create CU1 -driver cloudunit
 Usage: docker-machine create [OPTIONS] [arg...]
 ```
 
@@ -69,6 +68,21 @@ We will release many plugin but the first platforms will be in this order
 - [ ] IBM SoftLayer
 - [ ] Google Compute Engine
 We will support other platform after having full stability for those.
+
+## OPTIONS
+
+### COMMONS
+
+There will be common options and specific options.
+Common will be dedicated to CloudUnit Environment.
+
+### CUSTOM VIRTUALBOX
+
+### CUSTOM IBM SOFTLAYER
+
+### CUSTOM GOOGLE COMPUTE ENGINE
+
+
 
 ## License
 
