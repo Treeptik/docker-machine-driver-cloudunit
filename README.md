@@ -16,15 +16,20 @@ If you are new to CloudUnit you can [Read the documentation](https://github.com/
 The plugin will be available on the Github releases page. We will support Linux, MacOS and Windows.
 You have to download the binary into a directory on your PATH. Just make it executable.
 
-Linux:
+**Linux**
 ```
 curl -sSL -o ~/bin/docker-machine-driver-cloudunit \
 https://github.com/Treeptik/docker-machine-driver-cloudunit/releases/download/v0.0.1/bin.docker-machine-driver-cloudunit_linux-amd64 && \
 chmod 755 ~/bin/docker-machine-driver-cloudunit
 ```
-Mac OSX
+**Mac OSX**
 ```
 sudo curl -sSL -o /usr/local/bin/docker-machine-driver-cloudunit https://github.com/Treeptik/docker-machine-driver-cloudunit/releases/download/v0.0.1/bin.docker-machine-driver-cloudunit_darwin-amd64 &&
+sudo chmod 755 /usr/local/bin/docker-machine-driver-cloudunit
+```
+**Windows**
+```
+sudo curl -sSL -o /usr/local/bin/docker-machine-driver-cloudunit https://github.com/Treeptik/docker-machine-driver-cloudunit/releases/download/v0.0.1/bin.docker-machine-driver-cloudunit_windows-amd64 &&
 sudo chmod 755 /usr/local/bin/docker-machine-driver-cloudunit
 ```
 ### From Source
