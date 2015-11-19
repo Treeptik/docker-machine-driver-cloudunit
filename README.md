@@ -48,9 +48,9 @@ Usage: docker-machine create [OPTIONS] [arg...]
 ## Create a machine.
 
 We will release many plugin but the first platforms will be in this order
-[x] VirtualBox Local (Work in progress)
-[ ] IBM SoftLayer
-[ ] Google Compute Engine
+- [x] VirtualBox Local (WIP)
+- [ ] IBM SoftLayer
+- [ ] Google Compute Engine
 We will support other platform after having full stability for those.
 
 ## License
