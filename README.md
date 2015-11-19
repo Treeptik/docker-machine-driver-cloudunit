@@ -1,6 +1,8 @@
-# CloudUnit driver for Docker Machine
+# CloudUnit driver for Docker Machine 
 
 ![](https://github.com/Treeptik/CloudUnit-images/blob/master/logo-cloudunit.jpg)
+
+# WORK IN PROGRESS. 
 
 Install this driver in your PATH and you can create docker hosts with
 ease on [CloudUnit](https://www.cloudunit.fr).
@@ -23,9 +25,9 @@ then run:
 (macos)$ make build && make install
 ```
 
-which will install the driver into `/usr/local/bin`
+which will install the driver into `/usr/local/bin` with other docker-machine pluglin
 
-## Using the driver
+## How to use the driver
 
 To use the driver first make sure you are running at least [version
 0.5.0 of `docker-machine`](https://github.com/docker/machine/releases).
@@ -40,12 +42,17 @@ Check that `docker-machine` can see the CloudUnit driver by asking for
 the driver help.
 
 ```
-$ docker-machine create CU1 -driver cloudunit
+$ docker-machine create CU1 -driver cloudunit-virtualbox
 Usage: docker-machine create [OPTIONS] [arg...]
+```
 
 ## Create a machine.
 
-TODO
+We will release many plugin but the first platforms will be in this order
+[x] VirtualBox Local (Work in progress)
+[ ] IBM SoftLayer
+[ ] Google Compute Engine
+We will support other platform after having full stability for those.
 
 ## License
 
