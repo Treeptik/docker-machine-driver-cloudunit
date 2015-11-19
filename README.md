@@ -2,7 +2,7 @@
 
 ![](https://github.com/Treeptik/CloudUnit-images/blob/master/logo-cloudunit.jpg)
 
-# WORK IN PROGRESS. 
+# *WORK IN PROGRESS :: NOT RELEASED*
 
 Install this driver in your PATH and you can create docker hosts with
 ease on [CloudUnit](https://www.cloudunit.fr).
@@ -13,7 +13,19 @@ If you are new to CloudUnit you can [Read the documentation](https://github.com/
 
 ### From a Release
 
-TODO
+The plugin will be available on the Github releases page. We will support Linux, MacOS and Windows.
+You have to download the binary into a directory on your PATH. Just make it executable.
+
+Linux:
+
+curl -sSL -o ~/bin/docker-machine-driver-cloudunit \
+https://github.com/Treeptik/docker-machine-driver-cloudunit/releases/download/v0.0.1/bin.docker-machine-driver-cloudunit_linux-amd64 && \
+chmod 755 ~/bin/docker-machine-driver-cloudunit
+
+Mac OSX
+
+sudo curl -sSL -o /usr/local/bin/docker-machine-driver-cloudunit https://github.com/Treeptik/docker-machine-driver-cloudunit/releases/download/v0.0.1/bin.docker-machine-driver-cloudunit_darwin-amd64 &&
+sudo chmod 755 /usr/local/bin/docker-machine-driver-cloudunit
 
 ### From Source
 
@@ -48,7 +60,7 @@ Usage: docker-machine create [OPTIONS] [arg...]
 ## Create a machine.
 
 We will release many plugin but the first platforms will be in this order
-- [x] VirtualBox Local (WIP)
+- [x] VirtualBox (WIP)
 - [ ] IBM SoftLayer
 - [ ] Google Compute Engine
 We will support other platform after having full stability for those.
