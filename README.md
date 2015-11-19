@@ -35,7 +35,6 @@ To use the driver first make sure you are running at least [version
 ```
 $ docker-machine -v
 Docker Machine Version: 0.5.0
-docker-machine version 0.5.0
 ```
 
 Check that `docker-machine` can see the CloudUnit driver by asking for
